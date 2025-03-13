@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     iputils-ping 
 
 # Set Python 3.9 as default
-RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
+# RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
 
 # Install pip (remove old pip if exists)
 # RUN apt-get remove -y python3-pip && \
