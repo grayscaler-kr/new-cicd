@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     vim \
     ssh \
-    iputils-ping \
+    iputils-ping 
 
 # Set Python 3.9 as default
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
