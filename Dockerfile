@@ -16,8 +16,8 @@ RUN tar --strip-components=1 -xvf main.tar.gz
 RUN rm -rf main.tar.gz
 
 # Move fastapi, streamlit_front directory and files
-RUN mv -f /fastapi /TicketService_FastAPI_Streamlit/fastapi
-RUN mv -f /streamlit_front /TicketService_FastAPI_Streamlit/streamlit_front
+# RUN mv -f /fastapi /TicketService_FastAPI_Streamlit/fastapi
+# RUN mv -f /streamlit_front /TicketService_FastAPI_Streamlit/streamlit_front
 
 # Set working directory
 WORKDIR /TicketService_FastAPI_Streamlit/fastapi
